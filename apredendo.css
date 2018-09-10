@@ -1,0 +1,86 @@
+body
+{
+    position  : fixed;
+    margin    : 5%;
+    background: white;
+    width     : 100%;
+    height    : 50%;  
+}
+
+nav
+{
+    position: fixed;
+    width   : 100%;
+    height  : 100%;
+    left: 20%;
+    top: -3%;
+}
+
+#menu ul
+{
+    position   : fixed;
+    padding    : 30%;
+    margin     : -27.5%;
+    list-style : none;
+    font-family: "Baugaus 93";
+    font-size  : 170%;
+    margin: -27.7%;
+}
+
+#menu ul li a
+{
+    padding        : 1.25% 1.25%;
+    display        : inline-block;
+    color          : white;
+    text-decoration: none;
+    border-radius  : 30%;
+    transition     : .3s;
+    
+}
+
+#menu ul li a:hover
+{
+    padding         : 50%;
+    background-color: white;
+    transition      : .3s;
+}
+
+nav#menu ul li
+{
+    list-style: none;
+    display   : inline;
+    margin    : 0%;
+}
+
+.img
+{
+    background     : url(Imagens/Fundo.png) no-repeat;
+    background-size: 100%;
+    position       : fixed;
+    top            : 0%;
+    left           : 0%;
+    height         : 100%;
+    width          : 105%;
+}
+
+.imgLogo
+{
+    background     : url(Imagens/Logo.png) no-repeat;
+    background-size: 10%;
+    position       : fixed;
+    top            : -3.5%;
+    left           : 10%;
+    height         : 100%;
+    width          : 100%;
+}
+
+
+.barra
+{
+    position: fixed;
+    color   : white;
+    width   : 100%;
+    height  : 30%;
+    top     : -22%;
+    left    : 0%;
+}
