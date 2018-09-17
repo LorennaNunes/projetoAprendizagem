@@ -1,60 +1,48 @@
 body
 {
     position  : fixed;
-    margin    : 5%;
-    background: white;
+    margin    : 0%;
     width     : 100%;
-    height    : 50%;  
+    height    : 50%;
+    background-image: url(./Fundo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 nav
 {
     position: fixed;
-    width   : 100%;
-    height  : 100%;
-    left: 20%;
-    top: -3%;
+    width   : 70%;
+    height  : 10%;
+    left    : 60%;
+    top     : 0%;
 }
 
-#menu ul
+td
 {
-    position   : fixed;
-    padding    : 30%;
-    margin     : -27.5%;
-    list-style : none;
-    font-family: "Baugaus 93";
-    font-size  : 170%;
-    margin: -27.7%;
+    padding: 2px;
+    font-family: Aparajita;
+    font-size: 250%;
+    color: white;
+    border-color: black;
 }
 
-#menu ul li a
+td:hover
 {
-    padding        : 1.25% 1.25%;
-    display        : inline-block;
-    color          : white;
+    padding: 0px;
+    border: 2px solid white;
+    border-radius: 30%;
+}
+
+a
+{
     text-decoration: none;
-    border-radius  : 30%;
-    transition     : .3s;
-    
-}
-
-#menu ul li a:hover
-{
-    padding         : 50%;
-    background-color: white;
-    transition      : .3s;
-}
-
-nav#menu ul li
-{
-    list-style: none;
-    display   : inline;
-    margin    : 0%;
+    color: white;
 }
 
 .img
 {
-    background     : url(Imagens/Fundo.png) no-repeat;
+    background     : url("./Fundo.png") no-repeat;
     background-size: 100%;
     position       : fixed;
     top            : 0%;
@@ -65,22 +53,30 @@ nav#menu ul li
 
 .imgLogo
 {
-    background     : url(Imagens/Logo.png) no-repeat;
-    background-size: 10%;
+    background     : url("./LogoCorreto.png") no-repeat;
     position       : fixed;
-    top            : -3.5%;
+    top            : 0%;
     left           : 10%;
-    height         : 100%;
-    width          : 100%;
+    height         : 79px;
+    width          : 74px;
 }
-
 
 .barra
 {
     position: fixed;
     color   : white;
     width   : 100%;
-    height  : 30%;
-    top     : -22%;
+    top     : 9%;
     left    : 0%;
+}
+
+.tabelaCadastro
+{
+    position: fixed;
+    top: 20%;
+    left: 35%;
+    width: 30%;
+    height: 75%;
+    background-color: white;
+    color: black;
 }
