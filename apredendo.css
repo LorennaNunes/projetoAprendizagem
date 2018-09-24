@@ -11,7 +11,7 @@ body
 
 .FundoEntrar
 {
-    background-image: url(Imagens/infantis%5D.jpg);
+    background-image: url(./infantis.jpg);
     background-size: 100%;
 }
 
@@ -114,7 +114,7 @@ a
     background-color: white;
 }
 
-usu
+.nome
 {
   position   : fixed;
   top        : 30%;
@@ -124,7 +124,17 @@ usu
   color      : black;  
 }
 
-senha
+.usu
+{
+  position   : fixed;
+  top        : 42%;
+  left       : 40%;
+  font-size  : 130%;
+  font-family: Arial;
+  color      : black;  
+}
+
+.senha
 {
   position   : fixed;
   top        : 50%;
@@ -132,6 +142,16 @@ senha
   font-size  : 130%;
   font-family: Arial;
   color      : black;   
+}
+
+#txtNome
+{
+    background-color: oldlace;
+    padding-left    : 5px;
+    font-size       : 18px;
+    border          : none;
+    height          : 32px;
+    width           : 350px;
 }
 
 #txtUsuario
@@ -146,7 +166,7 @@ senha
 
 #txtSenha
 {
-    background-color: transparent;
+    background-color: oldlace;
     padding-left    : 5px;
     font-size       : 18px;
     border          : none;
