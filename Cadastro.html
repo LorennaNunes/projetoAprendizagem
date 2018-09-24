@@ -1,34 +1,39 @@
 <html>
     <head>
-        <title>Apredendo</title>
+        <title>Aprendendo</title>
         <link href="apredendo.css" rel="stylesheet" styletype="text/css">
     </head>
-    <body>
+    <body class="FundoEntrar">
         
         <nav>
-                <a href="#"><span class="imgLogo"></span></a>
+                <a href="PaginaPrincipal.html"><span class="imgLogo"></span></a>
                 <table border="0" cellpadding = 25>
                     <tr>
-                        <td><a href="./Cadastro.html">Cadastrar</a></td>
-                        <td><a href="#">Login</a></td>
+                        <td><a href="Cadastro.html">Cadastrar</a></td>
+                        <td><a href="Entrar.html">Entrar</a></td>
                     </tr>
                 </table>
-                
                 <hr class="barra">
 
         </nav>
-        
         <section class="tabelaCadastro">
-            <table>
-                <tr>
-                    <td>Nome:</td>
-                    <td><input type="text" required></td>
-                </tr>
-            
-            </table>
-        </section>
         
+        <label class="nome">Nome:</label>
+        <div id="Usuario">      
+        <input id="txtUsuario">
+        </div>
         
+        <label class="usu">Usuário:</label>
+        <div id="Usuario">      
+        <input id="txtUsuario">
+        </div>
         
+        <label class="senha">Senha:</label>
+        <div id="Senha">      
+        <input type="password" id="txtSenha" required>
+        </div>
+        
+        <center><a href="./loja.html" class="btnLogin">LOGIN</a></center>
+         </section>
     </body>
 </html>
