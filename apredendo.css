@@ -9,6 +9,12 @@ body
     background-size: 100%;
 }
 
+.FundoEntrar
+{
+    background-image: url(Imagens/infantis%5D.jpg);
+    background-size: 100%;
+}
+
 nav
 {
     position: fixed;
@@ -79,4 +85,71 @@ a
     height: 75%;
     background-color: white;
     color: black;
+}
+
+.entrar
+{
+   background-size: 100%;
+   background-size: 100%;
+   position       : absolute;
+   top            : 100%;
+   left           : 100%;
+   width          : 30%;
+   height         : 100%;
+}
+
+#Usuario
+{
+    position        : fixed;
+    top             : 35%;
+    left            : 38%;
+    background-color: white;
+}
+
+#Senha
+{
+    position        : fixed;
+    top             : 55%;
+    left            : 38%;
+    background-color: white;
+}
+
+usu
+{
+  position   : fixed;
+  top        : 30%;
+  left       : 40%;
+  font-size  : 130%;
+  font-family: Arial;
+  color      : black;  
+}
+
+senha
+{
+  position   : fixed;
+  top        : 50%;
+  left       : 40%; 
+  font-size  : 130%;
+  font-family: Arial;
+  color      : black;   
+}
+
+#txtUsuario
+{
+    background-color: oldlace;
+    padding-left    : 5px;
+    font-size       : 18px;
+    border          : none;
+    height          : 32px;
+    width           : 350px;
+}
+
+#txtSenha
+{
+    background-color: transparent;
+    padding-left    : 5px;
+    font-size       : 18px;
+    border          : none;
+    height          : 32px;
+    width           : 350px;
 }
