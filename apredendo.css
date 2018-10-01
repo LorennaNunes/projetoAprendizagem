@@ -11,7 +11,7 @@ body
 
 .FundoEntrar
 {
-    background-image: url(Imagens/infantis.jpg);
+    background-image: url(infantis.jpg);
     background-size: 100%;
 }
 
@@ -40,7 +40,7 @@ td:hover
     border-radius: 30%;
 }
 
-a
+.cima
 {
     text-decoration: none;
     color: white;
@@ -101,7 +101,15 @@ a
 #Usuario
 {
     position        : fixed;
-    top             : 35%;
+    top             : 55%;
+    left            : 39%;
+    background-color: white;
+}
+
+#Usuario2
+{
+    position        : fixed;
+    top             : 36%;
     left            : 39%;
     background-color: white;
 }
@@ -109,12 +117,46 @@ a
 #Senha
 {
     position        : fixed;
-    top             : 55%;
+    top             : 68%;
+    left            : 39%;
+    background-color: white;
+}
+
+#Senha2
+{
+    position        : fixed;
+    top             : 57%;
+    left            : 39%;
+    background-color: white;
+}
+
+#Nome
+{
+    position        : fixed;
+    top             : 29%;
+    left            : 39%;
+    background-color: white;
+}
+
+#Email
+{
+    position        : fixed;
+    top             : 42%;
     left            : 39%;
     background-color: white;
 }
 
 .usu
+{
+  position   : fixed;
+  top        : 50%;
+  left       : 40%;
+  font-size  : 130%;
+  font-family: Arial;
+  color      : black;  
+}
+
+.usu2
 {
   position   : fixed;
   top        : 30%;
@@ -127,11 +169,63 @@ a
 .senha
 {
   position   : fixed;
-  top        : 50%;
+  top        : 63%;
   left       : 40%; 
   font-size  : 130%;
   font-family: Arial;
   color      : black;   
+}
+
+.senha2
+{
+  position   : fixed;
+  top        : 51%;
+  left       : 40%; 
+  font-size  : 130%;
+  font-family: Arial;
+  color      : black;   
+}
+
+.registro
+{
+    position   : fixed;
+    top        : 63%;
+    left       : 51%;
+    font-size  : 90%;
+    font-family: Arial;
+    color      : black;
+    text-decoration: underline;
+}
+
+.email
+{
+  position   : fixed;
+  top        : 37%;
+  left       : 40%;
+  font-size  : 130%;
+  font-family: Arial;
+  color      : black;  
+}
+
+.nom
+{
+  position   : fixed;
+  top        : 24%;
+  left       : 40%;
+  font-size  : 130%;
+  font-family: Arial;
+  color      : black;  
+}
+
+.esqueceu
+{
+    position   : fixed;
+    top        : 63%;
+    left       : 39%;
+    font-size  : 90%;
+    font-family: Arial;
+    color      : black;
+    text-decoration: underline;
 }
 
 #txtUsuario
@@ -154,11 +248,49 @@ a
     width           : 350px;
 }
 
+#txtNome
+{
+    background-color: oldlace;
+    padding-left    : 5px;
+    font-size       : 18px;
+    border          : none;
+    height          : 32px;
+    width           : 350px;
+}
+
+#txtEmail
+{
+    background-color: oldlace;
+    padding-left    : 5px;
+    font-size       : 18px;
+    border          : none;
+    height          : 32px;
+    width           : 350px;
+}
+
 .btnEntrar
 {
     position        : fixed;
     width           : 15%;
-    top             : 70%;
+    top             : 76%;
+    left            : 42%;
+    height          : 6%;
+    border-radius   : 0% 10%;
+    color           : black;
+    background-color: skyblue;
+    font-family     : Arial;
+    font-weight     : bold;
+    font-size       : 150%; 
+    line-height     : 47.33px;
+    text-decoration : none;
+    text-align      : center;
+}
+
+.btnCadastrar
+{
+    position        : fixed;
+    width           : 15%;
+    top             : 85%;
     left            : 42%;
     height          : 6%;
     border-radius   : 0% 10%;
