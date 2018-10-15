@@ -1,0 +1,207 @@
+<html>
+    <head>
+        <title>Aprendendo</title>
+        <link href="apredendo.css" rel="stylesheet" styletype="text/css">
+    </head>
+    <script type="text/javascript">
+        
+        window.onload = function()
+        {
+            var img = document.getElementsByClassName("zoom");
+            for(x in img)
+                img[x].onclick = criaDiv;
+        }
+                
+            function criaDiv()
+            {
+                var ae = document.createElement("div");
+                ae.id = "fundoPreto";
+                ae.zIndex = 100;
+                document.body.appendChild(ae);
+
+                
+                document.getElementById("fundoPreto").style.display = "block";
+                document.getElementById("imagem").style.display = "block";
+                document.getElementById("imagem").style.zIndex = 200;
+                var img = document.getElementById("img");
+                img.src = "as/" + this.id + ".png";
+                img.style.width = "50%";
+                img.style.height = "90%";
+                img.style.top = "100%";
+                img.style.left = "50%";
+                BotaoSalvar();
+                BotaoImprimir();
+                BotaoPintar();
+                BotaoVoltar();
+            }
+        
+        function BotaoSalvar()
+        {
+            var ae = document.createElement('button');
+            ae.id = "btnSalvar";
+            ae.innerHTML = "SALVAR";
+            ae.onclick = function Salvar()
+            {
+                
+            }
+            document.getElementById("imagem").appendChild(ae);
+        }
+        
+        function BotaoImprimir()
+        {
+            var ae = document.createElement('button');
+            ae.id = "btnImprimir";
+            ae.innerHTML = "IMPRIMIR";
+            ae.onclick = function Imprimir()
+            {
+//                var img = new Image();
+//                img.src = document.getElementById("img").src;
+//                w=window.open();
+//                w.document.write(img);
+//                w.print();
+//                w.close();
+                
+                var queryString = "?src=" + document.getElementById("img").src;
+                window.open("print.html" + queryString);
+            }
+            document.getElementById("imagem").appendChild(ae);
+            
+        }
+        
+        function BotaoPintar()
+        {
+            var ae = document.createElement('button');
+            ae.id = "btnPintar";
+            ae.innerHTML = "COLORIR";
+            ae.onclick = function Pintar()
+            {
+                
+            }
+            document.getElementById("imagem").appendChild(ae);
+        }
+        
+        function BotaoVoltar()
+        {
+           
+            var ae = document.createElement('button');
+            ae.id = "btnVoltar";
+            ae.innerHTML = "X";
+            document.getElementById("imagem").appendChild(ae);
+            
+            ae.onclick = function Voltar()
+            {
+                debugger;
+                document.getElementById("imagem").style.display = 'none';
+                document.getElementById("fundoPreto").style.display = 'none';
+                
+                var btnSalvar = document.getElementById("btnSalvar");
+                btnSalvar.parentNode.removeChild(btnSalvar);
+                
+                var btnImprimir = document.getElementById("btnImprimir");
+                btnImprimir.parentNode.removeChild(btnImprimir);
+                
+                var btnPintar = document.getElementById("btnPintar");
+                btnPintar.parentNode.removeChild(btnPintar);
+                
+                var bntnVoltar = document.getElementById("btnVoltar");
+                bntnVoltar.parentNode.removeChild(bntnVoltar);
+            }
+            
+        }
+        /*
+        function ImageToPrint (source) {
+            return "<html><head><script>function step1(){\n" +
+                   "setTimeout('step2()',10;}\n" +
+                   "function step2(){window.print();window.close()}\n" +
+                   "</scr" + "ipt></head><body onload='step1()'>\n" +
+                   "<img src ='" + source + "'/></body></html>";
+        }
+        */
+    
+    </script>
+    <body id="fundoDesenho">
+        
+        <nav>
+                <a href="PaginaPrincipal.html"><span class="imgLogo"></span></a>
+                <table border="0" cellpadding = 25>
+                    <tr>
+                        <td id="cad"><a href="./Cadastro.html" class="cima">Cadastrar</a></td>
+                        <td id="log"><a href="Entrar.html" class="cima">Entrar</a></td>
+                    </tr>
+                </table>
+                <hr class="barra">
+        </nav>
+        
+        
+        <a class="LabelAnimais">Animais</a>
+
+        <img id="Gato" class="zoom" src="as/gato.png" >
+        <label id="nGato">Gato</label>
+        
+        <img id="Boi" class="zoom" src="as/boi.png">
+        <label id="nBoi">Boi</label>
+        
+        <img id="Peixe" class="zoom" src="as/peixe.png">
+        <label id="nPeixe">Peixe</label>
+        
+        <img id="Borboleta" class="zoom" src="as/borboleta.png">
+        <label id="nBorboleta">Borboleta</label>
+        
+        <img id="Golfinho" class="zoom" src="as/golfinho.png">
+        <label id="nGolfinho">Golfinho</label>
+        
+        <img id="Cachorro" class="zoom" src="as/cachorro.png" >
+        <label id="nCachorro">Cachorro</label>
+        
+        <img id="Porco" class="zoom" src="as/porco.png">
+        <label id="nPorco">Porco</label>
+        
+        <img id="Urso" class="zoom" src="as/urso.png">
+        <label id="nUrso">Urso</label>
+        
+        <img id="Ovelha" class="zoom" src="as/ovelha.png"> 
+        <label id="nOvelha">Ovelha</label>
+        
+        
+        
+        <a class="LabelNumeros">Números</a>
+        
+        <img id="Zero" class="zoom" src="as/Zero.png">
+        <label id="nZero">Zero</label>
+        
+        <img id="Um" class="zoom" src="as/Um.png" >
+        <label id="nUm">Um</label>
+        
+        <img id="Dois" class="zoom" src="as/Dois.png">
+        <label id="nDois">Dois</label>
+        
+        <img id="Tres" class="zoom" src="as/Tres.png" >
+        <label id="nTres">Tres</label>
+        
+        <img id="Quatro" class="zoom" src="as/Quatro.png" >
+        <label id="nQuatro">Quatro</label>
+        
+        <img id="Cinco" class="zoom" src="as/Cinco.png">
+        <label id="nCinco">Cinco</label>
+         
+        <img id="Seis" class="zoom" src="as/Seis.png">
+        <label id="nSeis">Seis</label>
+        
+        <img id="Sete" class="zoom" src="as/Sete.png" >
+        <label id="nSete">Sete</label>
+        
+        <img id="Oito" class="zoom" src="as/Oito.png" >
+        <label id="nOito">Oito</label>
+        
+        <img id="Nove" class="zoom" src="as/Nove.png" >
+        <label id="nNove">Nove</label>
+        
+        
+
+        <div id="imagem">
+             <img id="img">
+        </div>
+            
+
+    </body>
+</html>

@@ -1,0 +1,25 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <img src="" id="myImg">
+        <button id="print">Imprimir</button>
+        
+        <script>
+            window.onload = function() {
+                var img = document.getElementById("myImg");
+                var urlString = window.location.toString();
+                var url = new URL(urlString);
+                var src = url.searchParams.get("src");
+                
+                var img = document.getElementById("myImg");
+                img.src = src;
+            }
+            
+            var btnPrint = document.getElementById("print");
+            btnPrint.onclick = function(){
+                window.print();
+            }
+        </script>
+    </body>
+</html>

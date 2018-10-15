@@ -1,3 +1,9 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
 body
 {
     position  : fixed;
@@ -9,9 +15,31 @@ body
     background-size: 100%;
 }
 
-.FundoEntrar
+#fundoPrincipal
+{
+    background-image: url(./Fundo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#fundoJogos
+{
+    background-image: url(./fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#fundoDesenho
+{
+    background-image: url(fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#fundoEntrar
 {
     background-image: url(infantis.jpg);
+    background-repeat: no-repeat;
     background-size: 100%;
 }
 
@@ -44,18 +72,7 @@ td:hover
 {
     text-decoration: none;
     color: white;
-}
-
-.img
-{
-    background     : url("./Fundo.png") no-repeat;
-    background-size: 100%;
-    position       : fixed;
-    top            : 0%;
-    left           : 0%;
-    height         : 100%;
-    width          : 105%;
-}
+}F
 
 .imgLogo
 {
@@ -189,7 +206,7 @@ td:hover
 .registro
 {
     position   : fixed;
-    top        : 63%;
+    top        : 65%;
     left       : 51%;
     font-size  : 90%;
     font-family: Arial;
@@ -220,7 +237,7 @@ td:hover
 .esqueceu
 {
     position   : fixed;
-    top        : 63%;
+    top        : 65%;
     left       : 39%;
     font-size  : 90%;
     font-family: Arial;
@@ -302,4 +319,583 @@ td:hover
     line-height     : 47.33px;
     text-decoration : none;
     text-align      : center;
+}
+
+.imgPersonagem
+{
+    background     : url("Personagens/Imagem1.png") no-repeat;
+    position       : fixed;
+    top            : 5%;
+    left           : 10%;
+    height         : 100%;
+    width          : 100%;
+}
+
+#Gato
+{
+    position: absolute;
+    width: 10%;
+    top: 42%;
+    left: 3%;
+    height: 40%;
+}
+
+#Boi
+{
+    position: absolute;
+    width: 10%;
+    top: 50%;
+    left: 13%;
+}
+
+#Peixe
+{
+    position: absolute;
+    width: 10%;
+    top: 32%;
+    left: 25%;
+}
+
+#Borboleta
+{
+    position: absolute;
+    width: 10%;
+    top: 42%;
+    left: 36%;
+}
+
+#Golfinho
+{
+    position: absolute;
+    width: 10%;
+    top: 42%;
+    left: 48%;
+}
+
+#Cachorro
+{
+    position: absolute;
+    width: 10%;
+    top: 42%;
+    left: 59%;
+}
+
+#Porco
+{
+    position: absolute;
+    width: 10%;
+    top: 42%;
+    left: 69%;
+}
+
+#Urso
+{
+    position: absolute;
+    width: 10%;
+    top: 42%;
+    left: 78%;
+}
+
+#Ovelha
+{
+    position: absolute;
+    width: 10%;
+    top: 40%;
+    left: 89%;
+}
+
+img.zoom:hover
+{
+    transform: scale(1.1);
+}
+
+.LabelAnimais
+{
+    position        : fixed;
+    width           : 15%;
+    top             : 12%;
+    left            : 42%;
+    height          : 6%;
+    border-radius   : 0% 10%;
+    color           : black;
+    background-color: coral;
+    font-family     : Arial;
+    font-weight     : bold;
+    font-size       : 150%; 
+    line-height     : 47.33px;
+    text-decoration : none;
+    text-align      : center;
+    box-shadow: 0 4px 8px 0 black, black;
+}
+
+.LabelJogos
+{
+    position        : fixed;
+    width           : 90%;
+    top             : 8%;
+    left            : 5%;
+    height          : 15%;
+    border-radius   : 0% 10%;
+    color           : black;
+    background-color: coral;
+    font-family     : Arial;
+    font-weight     : bold;
+    font-size       : 400%; 
+    text-decoration : none;
+    text-align      : center;
+    box-shadow: 0 4px 8px 0 black, black;
+}
+
+.LabelNumeros
+{
+    position        : fixed;
+    width           : 15%;
+    top             : 58%;
+    left            : 42%;
+    height          : 6%;
+    border-radius   : 0% 10%;
+    color           : black;
+    background-color: coral;
+    font-family     : Arial;
+    font-weight     : bold;
+    font-size       : 150%; 
+    line-height     : 47.33px;
+    text-decoration : none;
+    text-align      : center;
+    box-shadow: 0 4px 8px 0 black, black;
+}
+
+#Zero
+{
+    position: absolute;
+    width: 6%;
+    top: 150%;
+    left: 3%;
+    height: 36%;
+}
+
+#Um
+{
+    position: absolute;
+    width: 6%;
+    top: 150%;
+    left: 11%;
+}
+
+#Dois
+{
+    position: absolute;
+    top: 150%;
+    left: 21%;
+    width: 6%;
+}
+
+#Tres
+{
+    position: absolute;
+    top: 150%;
+    left: 31%;
+    width: 6%;
+}
+
+#Quatro
+{
+    position: absolute;
+    top: 150%;
+    left: 41%;
+    width: 6%;
+}
+
+#Cinco
+{
+    position: absolute;
+    top: 150%;
+    left: 51%;
+    width: 6%;
+}
+
+#Seis
+{
+    position: absolute;
+    top: 150%;
+    left: 61%;
+    width: 6%;
+}
+
+#Sete
+{
+    position: absolute;
+    top: 150%;
+    left: 71%;
+    width: 6%;
+}
+
+#Oito
+{
+    position: absolute;
+    top: 150%;
+    left: 81%;
+    width: 6%;
+}
+
+#Nove
+{
+    position: absolute;
+    width: 6%;
+    top: 150%;
+    left: 91%;
+}
+
+#nOvelha
+{
+    position        : fixed;
+    top             : 40%;
+    left            : 92.3%;
+    color           : black;
+    font-family     : Arial;
+    font-weight     : bold;
+    font-size       : 100%; 
+    line-height     : 47.33px;
+    text-decoration : none;
+}
+
+#nUrso
+{
+    position        : fixed;
+    top             : 40%;
+    left            : 81.8%;
+    color           : black;
+    font-family     : Arial;
+    font-weight     : bold;
+    font-size       : 100%; 
+    line-height     : 47.33px;
+    text-decoration : none;
+}
+
+#nPorco
+{
+    position        : fixed;
+    top             : 40%;
+    left            : 72.5%;
+    color           : black;
+    font-family     : Arial;
+    font-weight     : bold;
+    font-size       : 100%; 
+    line-height     : 47.33px;
+    text-decoration : none;
+}
+
+#nCachorro
+{
+    position        : fixed;
+    top             : 40%;
+    left            : 61.8%;
+    color           : black;
+    font-family     : Arial;
+    font-weight     : bold;
+    font-size       : 100%; 
+    line-height     : 47.33px;
+    text-decoration : none;
+}
+
+#nGolfinho
+{
+    position        : fixed;
+    top             : 40%;
+    left            : 51%;
+    color           : black;
+    font-family     : Arial;
+    font-weight     : bold;
+    font-size       : 100%; 
+    line-height     : 47.33px;
+    text-decoration : none;
+}
+
+#nBorboleta
+{
+    position        : fixed;
+    top             : 40%;
+    left            : 38.7%;
+    color           : black;
+    font-family     : Arial;
+    font-weight     : bold;
+    font-size       : 100%; 
+    line-height     : 47.33px;
+    text-decoration : none;
+}
+
+#nPeixe
+{
+    position        : fixed;
+    top             : 40%;
+    left            : 28.7%;
+    color           : black;
+    font-family     : Arial;
+    font-weight     : bold;
+    font-size       : 100%; 
+    line-height     : 47.33px;
+    text-decoration : none;
+}
+
+#nBoi
+{
+    position        : fixed;
+    top             : 40%;
+    left            : 18%;
+    color           : black;
+    font-family     : Arial;
+    font-weight     : bold;
+    font-size       : 100%; 
+    line-height     : 47.33px;
+    text-decoration : none;
+}
+
+#nGato
+{
+    position        : fixed;
+    top             : 40%;
+    left            : 7.5%;
+    color           : black;
+    font-family     : Arial;
+    font-weight     : bold;
+    font-size       : 100%; 
+    line-height     : 47.33px;
+    text-decoration : none;
+}
+
+#nZero
+{
+    position        : fixed;
+    top             : 92%;
+    left            : 5%;
+    color           : black;
+    font-family     : Arial;
+    font-weight     : bold;
+    font-size       : 100%; 
+    line-height     : 47.33px;
+    text-decoration : none;
+}
+
+#nUm
+{
+    position        : fixed;
+    top             : 92%;
+    left            : 13.2%;
+    color           : black;
+    font-family     : Arial;
+    font-weight     : bold;
+    font-size       : 100%; 
+    line-height     : 47.33px;
+    text-decoration : none;
+}
+
+#nDois
+{
+    position        : fixed;
+    top             : 92%;
+    left            : 22.7%;
+    color           : black;
+    font-family     : Arial;
+    font-weight     : bold;
+    font-size       : 100%; 
+    line-height     : 47.33px;
+    text-decoration : none;
+}
+
+#nTres
+{
+    position        : fixed;
+    top             : 92%;
+    left            : 33%;
+    color           : black;
+    font-family     : Arial;
+    font-weight     : bold;
+    font-size       : 100%; 
+    line-height     : 47.33px;
+    text-decoration : none;
+}
+
+#nQuatro
+{
+    position        : fixed;
+    top             : 92%;
+    left            : 43%;
+    color           : black;
+    font-family     : Arial;
+    font-weight     : bold;
+    font-size       : 100%; 
+    line-height     : 47.33px;
+    text-decoration : none;
+}
+
+#nCinco
+{
+    position        : fixed;
+    top             : 92%;
+    left            : 52.5%;
+    color           : black;
+    font-family     : Arial;
+    font-weight     : bold;
+    font-size       : 100%; 
+    line-height     : 47.33px;
+    text-decoration : none;
+}
+
+#nSeis
+{
+    position        : fixed;
+    top             : 92%;
+    left            : 63%;
+    color           : black;
+    font-family     : Arial;
+    font-weight     : bold;
+    font-size       : 100%; 
+    line-height     : 47.33px;
+    text-decoration : none;
+}
+
+#nSete
+{
+    position        : fixed;
+    top             : 92%;
+    left            : 72.5%;
+    color           : black;
+    font-family     : Arial;
+    font-weight     : bold;
+    font-size       : 100%; 
+    line-height     : 47.33px;
+    text-decoration : none;
+}
+
+#nOito
+{
+    position        : fixed;
+    top             : 92%;
+    left            : 83%;
+    color           : black;
+    font-family     : Arial;
+    font-weight     : bold;
+    font-size       : 100%; 
+    line-height     : 47.33px;
+    text-decoration : none;
+}
+
+#nNove
+{
+    position        : fixed;
+    top             : 92%;
+    left            : 92.5%;
+    color           : black;
+    font-family     : Arial;
+    font-weight     : bold;
+    font-size       : 100%; 
+    line-height     : 47.33px;
+    text-decoration : none;
+}
+
+label.nomesAnimais:hover
+{
+    transform: scale(1.1);
+}
+
+#imagem
+{
+    position: absolute;
+    opacity: 0.9;
+    left: 50%;
+    top: 85%;
+    transform: translate(-50%, -50%);
+    background-color: lightyellow;
+    height: 110%;
+    width: 50%;
+    display: none;
+    border: 2px solid black;
+}
+
+#fundoPreto
+{
+    position: absolute;
+    display: none;
+    opacity: 0.8;
+    background-color: black;
+    width: 100%;
+    height: 200%;
+}
+
+#foto
+{
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+    background-color: lightyellow;
+    height: 120%;
+    width: 50%;
+    display: none;
+    border: 2px solid black;
+}
+
+
+#btnImprimir
+{
+    position: absolute;
+    top: 20%;
+    left: 65%;
+    font-family: cursive;
+    font-size: 150%;
+    background-color: #FFE4E1;
+    border-radius: 8px;
+    height: 12%;
+    width: 20%;
+    box-sizing: border-box;
+    
+}
+#btnSalvar
+{
+    position: absolute;
+    top: 38%;
+    left: 65%;
+    font-family: cursive;
+    font-size: 150%;
+    background-color: #FFE4E1;
+    border-radius: 8px;
+    height: 12%;
+    width:20%;
+}
+
+#btnPintar
+{
+    position: absolute;
+    top: 56%;
+    left: 65%; 
+    font-family: cursive;
+    font-size: 150%;
+    background-color: #FFE4E1;
+    border-radius: 8px;
+    height: 12%;
+    width: 20%;
+}
+
+#btnVoltar
+{
+    position: absolute;
+    top: 2%;
+    left: 95%; 
+    font-family: cursive;
+    font-size: 120%;
+    background-color: #FFE4E1;
+    border-radius: 8px;
+    height: 8%;
+    width: 4%;
+    text-align: center;
+    font-weight: bold;
+}
+
+#cad{
+    position: absolute;
+}
+
+#log{
+    position: absolute;
+    left: 150px;
 }

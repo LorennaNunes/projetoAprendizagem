@@ -2,7 +2,7 @@
     <head>
         <title>Aprendendo</title>
         <link href="apredendo.css" rel="stylesheet" styletype="text/css">
-        <script src="./aprendendo.js"></script>
+        <script scr="./aprendendo.js"></script>
     </head>
     <body id="fundoEntrar">
         
@@ -17,39 +17,31 @@
                 <hr class="barra">
 
         </nav>
-        <form id="form1" action="" method="post">
+        <form>
         <section class="tabelaCadastro">
         <span class="entrar"></span>
         
         <label class="nom">Nome:</label>
         <div id="Nome">
-        <input id="txtNome" type="text">
+        <input id="txtNome" required>
         </div>
         
         <label class="email">Email:</label>
         <div id="Email">
-        <input id="txtEmail" name="email">
+        <input id="txtEmail" required>
         </div>
         
         <label class="usu">Usuário:</label>
         <div id="Usuario">
-        <input id="txtUsuario">
+        <input id="txtUsuario" required>
         </div>
         
         <label class="senha">Senha:</label>
         <div id="Senha">
-        <input type="password" id="txtSenha">
+        <input type="password" id="txtSenha" required>
         </div>
         
-        <div class="masculino">
-        <input type="radio" name="radioButton" value="Masc" class="">Masculino
-        </div>
-        <div class="feminino">
-        <input type="radio" name="radioButton" value="Fem" class="">Feminino
-        </div>
-        
-        <input  type="submit" href="Bem-Vindo.html" class="btnCadastrar" value="Cadastrar" onclick="ValidaCampos()">
-        
+        <input  type="submit" href="Bem-Vindo.html" class="btnCadastrar" value="Cadastrar">
          </section>
             </form>
     </body>
