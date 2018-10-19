@@ -17,7 +17,7 @@ body
 
 #fundoPrincipal
 {
-    background-image: url(./Fundo.png);
+    background-image: url(as/fundoPrincipal.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -1020,4 +1020,53 @@ img.opcoes:hover
     top: 65%;
     left: 30%;
     height: 20%;
+}
+
+#jogoColorir
+{
+    position: absolute;
+    width: 20%;
+    top: 70%;
+    left: 24.3%;
+    height: 45%;
+}
+
+#nColorir
+{
+    position        : fixed;
+    top             : 58%;
+    left            : 30%;
+    color           : black;
+    font-family     : Arial;
+    font-weight     : bold;
+    font-size       : 100%; 
+    line-height     : 47.33px;
+    text-decoration : none;
+}
+
+#jogoCompletando
+{
+    position: absolute;
+    width: 18%;
+    top: 73%;
+    left: 53,.3%;
+    height: 45%;
+}
+
+#nCompletando
+{
+    position        : fixed;
+    top             : 61%;
+    left            : 56%;
+    color           : black;
+    font-family     : Arial;
+    font-weight     : bold;
+    font-size       : 100%; 
+    line-height     : 47.33px;
+    text-decoration : none;
+}
+
+@media screen and (max-width:100px)
+{
+    
 }
