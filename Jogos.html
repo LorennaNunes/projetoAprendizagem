@@ -4,11 +4,31 @@
         <link href="apredendo.css" rel="stylesheet" styletype="text/css">
     </head>
     <script type="text/javascript">
-        window.onload = function Ze() {
-            document.-('ana').onclick = alert("Macumba");
+        window.onload = function (){
+            var img = document.getElementsByClassName("opcoes");
+            for(x in img)
+                img[x].onclick = criaDiv;
         }
+            function AbrirImpre()
+            {
+                //abrir a página de Desenho para imprimir
+            }
+        
     </script>
     <body id="fundoJogos"> 
-       <a class="LabelJogos">JOGOS</a>
+       <a class="LabelJogos">OPÇÕES</a>
+        
+        <a href="DesenhoParaImprimir.html"><img id="Impressora" class="opcoes" src="as/impressora.jpg.png"></a>
+        <label id="nImpressora">Para imprimir</label>
+        
+        <a><img id="Game" class="opcoes" src="as/game.png"></a>
+        <label id="nGame">Jogos</label>
+        
+        <a href="SomNaCaixa.html"><img id="Escutar" class="opcoes" src="as/escutar.png"></a>
+        <label id="nEscutar">Som na caixa</label>
+        
+        <a><img id="Luz" class="opcoes" src="as/Luz.png" ></a>
+        <label id="nLuz">Como se faz?</label>
+        
     </body>
 </html>

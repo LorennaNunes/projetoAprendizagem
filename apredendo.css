@@ -432,9 +432,9 @@ img.zoom:hover
 {
     position        : fixed;
     width           : 90%;
-    top             : 8%;
+    top             : 5%;
     left            : 5%;
-    height          : 15%;
+    height          : 11%;
     border-radius   : 0% 10%;
     color           : black;
     background-color: coral;
@@ -853,7 +853,7 @@ label.nomesAnimais:hover
 #btnSalvar
 {
     position: absolute;
-    top: 38%;
+    top: 50%;
     left: 65%;
     font-family: cursive;
     font-size: 150%;
@@ -898,4 +898,126 @@ label.nomesAnimais:hover
 #log{
     position: absolute;
     left: 150px;
+}
+
+#Impressora
+{
+    position: absolute;
+    width: 10%;
+    top: 50%;
+    left: 30%;
+    height: 40%;
+}
+
+#nImpressora
+{
+    position        : fixed;
+    top             : 43%;
+    left            : 32%;
+    color           : black;
+    font-family     : Arial;
+    font-weight     : bold;
+    font-size       : 100%; 
+    line-height     : 47.33px;
+    text-decoration : none;
+}
+
+#Game
+{
+    position: absolute;
+    width: 10%;
+    top: 50%;
+    left: 60%;
+    height: 40%;
+}
+
+#nGame
+{
+    position        : fixed;
+    top             : 43%;
+    left            : 63.5%;
+    color           : black;
+    font-family     : Arial;
+    font-weight     : bold;
+    font-size       : 100%; 
+    line-height     : 47.33px;
+    text-decoration : none;
+}
+
+#Escutar
+{
+    position: absolute;
+    width: 10%;
+    top: 125%;
+    left: 30%;
+    height: 40%;
+}
+
+
+
+#nEscutar
+{
+    position        : fixed;
+    top             : 85%;
+    left            : 32%;
+    color           : black;
+    font-family     : Arial;
+    font-weight     : bold;
+    font-size       : 100%; 
+    line-height     : 47.33px;
+    text-decoration : none;
+}
+
+#Luz
+{
+    position: absolute;
+    width: 10%;
+    top: 125%;
+    left: 60%;
+    height: 40%;
+}
+
+#nLuz
+{
+    position        : fixed;
+    top             : 85%;
+    left            : 62%;
+    color           : black;
+    font-family     : Arial;
+    font-weight     : bold;
+    font-size       : 100%; 
+    line-height     : 47.33px;
+    text-decoration : none;
+}
+
+img.opcoes:hover
+{
+    transform: scale(1.1);
+}
+
+#somNatal
+{
+    position: absolute;
+    width: 5%;
+    top: 40%;
+    left: 30%;
+    height: 20%;
+}
+
+#somNiver
+{
+    position: absolute;
+    width: 5%;
+    top: 90%;
+    left: 30%;
+    height: 20%;
+}
+
+#somSapo
+{
+    position: absolute;
+    width: 5%;
+    top: 65%;
+    left: 30%;
+    height: 20%;
 }
