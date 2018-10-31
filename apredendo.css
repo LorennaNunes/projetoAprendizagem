@@ -42,6 +42,7 @@ body
     background-repeat: no-repeat;
     background-size: 100%;
 }
+/*
 
 nav
 {
@@ -67,30 +68,12 @@ td:hover
     border: 2px solid white;
     border-radius: 30%;
 }
+*/
 
 .cima
 {
     text-decoration: none;
     color: white;
-}F
-
-.imgLogo
-{
-    background     : url("./LogoCorreto.png") no-repeat;
-    position       : fixed;
-    top            : 0%;
-    left           : 10%;
-    height         : 79px;
-    width          : 74px;
-}
-
-.barra
-{
-    position: fixed;
-    color   : white;
-    width   : 100%;
-    top     : 9%;
-    left    : 0%;
 }
 
 .tabelaCadastro
@@ -418,7 +401,7 @@ img.zoom:hover
     height          : 6%;
     border-radius   : 0% 10%;
     color           : black;
-    background-color: coral;
+    background-color: #F78181;
     font-family     : Arial;
     font-weight     : bold;
     font-size       : 150%; 
@@ -455,7 +438,7 @@ img.zoom:hover
     height          : 6%;
     border-radius   : 0% 10%;
     color           : black;
-    background-color: coral;
+    background-color: #F78181;
     font-family     : Arial;
     font-weight     : bold;
     font-size       : 150%; 
@@ -998,29 +981,79 @@ img.opcoes:hover
 #somNatal
 {
     position: absolute;
-    width: 5%;
+    width: 15%;
     top: 40%;
-    left: 30%;
-    height: 20%;
+    left: 2%;
+    height: 50%;
+}
+
+#nSomNatal
+{
+     position        : fixed;
+    top             : 23%;
+    left            : 35.5%;
+    color           : black;
+    font-family     : Arial;
+    font-weight     : bold;
+    font-size       : 100%; 
+    line-height     : 47.33px;
+    text-decoration : none;
 }
 
 #somNiver
 {
     position: absolute;
-    width: 5%;
-    top: 90%;
-    left: 30%;
-    height: 20%;
+    width: 15%;
+    top: 40%;
+    left: 34%;
+    height: 50%;
 }
 
 #somSapo
 {
     position: absolute;
-    width: 5%;
-    top: 65%;
-    left: 30%;
-    height: 20%;
+    width: 15%;
+    top: 40%;
+    left: 18%;
+    height: 50%;
 }
+
+#somEstatua
+{
+    position: absolute;
+    width: 15%;
+    top: 40%;
+    left: 50%;
+    height: 50%;
+}
+
+#somLobato
+{
+    position: absolute;
+    width: 15%;
+    top: 40%;
+    left: 66%;
+    height: 50%;
+}
+
+#somPirulito
+{
+    position: absolute;
+    width: 15%;
+    top: 40%;
+    left: 82%;
+    height: 50%;
+}
+
+#somReiDavi
+{
+    position: absolute;
+    width: 15%;
+    top: 115%;
+    left: 2%;
+    height: 50%;
+}
+
 
 #jogoColorir
 {
@@ -1066,7 +1099,53 @@ img.opcoes:hover
     text-decoration : none;
 }
 
-@media screen and (max-width:100px)
+#footer
 {
-    
+    display: flex;
+    min-height: 100px;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+#UrsinhoJoinha
+{
+    position: relative;
+    left: calc(100% - 1050px);
+}
+
+#formulario
+{
+    margin-top: 20%;
+    width: 100%;
+}
+
+#UrsinhoForm
+{
+    position: relative;
+    left: -15%;
+    margin-top: 5%;
+}
+
+#btnCadastro
+{
+    width: 10%;
+    height: 6%;
+}
+
+#btnOlha
+{
+    width: 15%;
+    height: 10%;
+}
+
+#ImgbtnOlha
+{
+    width: 100%;
+    height: 100%;
+}
+
+#menuIcon
+{
+    display: block;
+    height: 25%;
 }
