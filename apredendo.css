@@ -1161,3 +1161,135 @@ img.opcoes:hover
     margin-top: calc(72% - 1050px);
     color: black;
 }
+
+#nPalavras
+{
+    position        : fixed;
+    top             : 90%;
+    left            : 54%;
+    color           : black;
+    font-family     : Arial;
+    font-weight     : bold;
+    font-size       : 100%; 
+    line-height     : 47.33px;
+    text-decoration : none;
+}
+
+#jogoPalavras
+{
+    position: absolute;
+    width: 15%;
+    top: 140%;
+    left: 52%;
+    height: 40%;
+}
+
+#jogoFrutas
+{
+    position: absolute;
+    width: 15%;
+    top: 140%;
+    left: 28.5%;
+    height: 40%;
+}
+
+#nFrutas
+{
+    position        : fixed;
+    top             : 90%;
+    left            : 33%;
+    color           : black;
+    font-family     : Arial;
+    font-weight     : bold;
+    font-size       : 100%; 
+    line-height     : 47.33px;
+    text-decoration : none;
+}
+
+#jogoUrsinho
+{
+    position: absolute;
+    width: 15%;
+    top: 65%;
+    left: 7%;
+    height: 50%;
+}
+
+#nUrsinho
+{
+    position        : fixed;
+    top             : 58%;
+    left            : 10%;
+    color           : black;
+    font-family     : Arial;
+    font-weight     : bold;
+    font-size       : 100%; 
+    line-height     : 47.33px;
+    text-decoration : none;
+}
+
+#jogoAnimais
+{
+    position: absolute;
+    width: 15%;
+    top: 140%;
+    left: 7%;
+    height: 40%;
+}
+
+#nAnimais
+{
+    position        : fixed;
+    top             : 90%;
+    left            : 9%;
+    color           : black;
+    font-family     : Arial;
+    font-weight     : bold;
+    font-size       : 100%; 
+    line-height     : 47.33px;
+    text-decoration : none;
+}
+
+#jogoFolclore
+{
+    position: absolute;
+    width: 18%;
+    top: 73%;
+    left: 75%;
+    height: 45%;
+}
+
+#nFolclore
+{
+    position        : fixed;
+    top             : 59%;
+    left            : 80%;
+    color           : black;
+    font-family     : Arial;
+    font-weight     : bold;
+    font-size       : 100%; 
+    line-height     : 47.33px;
+    text-decoration : none;
+}
+
+#nPascoa
+{
+    position        : fixed;
+    top             : 91%;
+    left            : 80%;
+    color           : black;
+    font-family     : Arial;
+    font-weight     : bold;
+    font-size       : 100%; 
+    line-height     : 47.33px;
+    text-decoration : none;
+}
+
+#jogoPascoa
+{
+    position: absolute;
+    width: 18%;
+    top: 140%;
+    left: 75%;
+    height: 43%;
+}
