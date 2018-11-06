@@ -2,19 +2,29 @@
     <head>
         <title>Aprendendo</title>
         <link href="apredendo.css" rel="stylesheet" styletype="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script scr="./aprendendo.js"></script>
+        <script type="text/javascript"></script>
     </head>
-    <body id="fundoEntrar">
+    <body id="fundoPrincipal">
         
-        <nav>
-                <a href="PaginaPrincipal.html"><span class="imgLogo"></span></a>
-                <table border="0" cellpadding = 25>
-                    <tr>
-                        <td><a href="./Cadastro.html" class="cima">Cadastrar</a></td>
-                        <td><a href="Entrar.html" class="cima">Entrar</a></td>
-                    </tr>
-                </table>
-                <hr class="barra">
-
+         <nav>
+            <div class="nav-wrapper">
+                <a href="PaginaPrincipal.html" class="brand-logo"><img src="LogoCorreto.png"></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="DesenhoParaImprimir.html" class="waves-effect waves-light btn cyan">Imprimir<i class="material-icons right">local_printshop</i></a></li>
+                    <li><a href="JogosREAL.html" class="waves-effect waves-light btn cyan">JOGOS<i class="material-icons right">videogame_asset</i></a></li>
+                    <li><a href="SomNaCaixa.html" class="waves-effect waves-light btn cyan">SOM NA CAIXA<i class="material-icons right">queue_music</i></a></li>
+                    
+                    <li><a id="data-target" href="#" class="waves-effect waves-light btn cyan">COMO SE FAZ?<i class="material-icons right">queue_music</i></a></li>
+                    
+                    <li><a href="#" class="waves-effect waves-light">SAIR</a></li>
+                    <li><a href=""><i class="material-icons">search</i></a></li>
+                </ul>
+            </div>
         </nav>
         <form>
         <section class="tabelaCadastro">

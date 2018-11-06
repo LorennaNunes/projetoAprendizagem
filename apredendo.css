@@ -1149,3 +1149,15 @@ img.opcoes:hover
     display: block;
     height: 25%;
 }
+
+#iconColor
+{
+   color: black;
+}
+
+#modal1
+{
+    width: 40%;
+    margin-top: calc(72% - 1050px);
+    color: black;
+}

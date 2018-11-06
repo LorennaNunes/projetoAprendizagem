@@ -13,11 +13,20 @@
     <script>
         window.onload = function(){
              $(document).ready(function(){
-    $('.modal').modal
-    ();
-  });
-      
-        }
+                $('.modal').modal();
+             });      
+        } 
+        
+         function MostrarSenha()
+            {
+                
+                document.getElementById("checkCadastro");
+                if(for_senha.type == "password")
+                        for_senha.type="text";
+                else
+                    for_senha.type = "password";
+                
+            }
     </script>
     <body id="fundoPrincipal">
         
@@ -32,17 +41,37 @@
       <ul class="right hide-on-med-and-down">
           
         <li><a href="Cadastrar.html" class="waves-effect waves-light btn cyan">Cadastrar <i class="material-icons right">people</i></a>
-         <li><a class="waves-effect waves-light btn modal-trigger" href="#modal1">Entrar<i class="material-icons right">input</i></a></li>   
+         <li><a class="waves-effect waves-light btn modal-trigger cyan" href="#modal1">Entrar<i class="material-icons right">input</i></a></li>   
           
           <div id="modal1" class="modal">
     <div class="modal-content">
-      <h4>Modal Header</h4>
-      <p>A bunch of text</p>
+       
+        <div id="EmailEntrar" class="input-field col s12 m1">
+                    <i class="material-icons prefix">mail</i>
+                    <input id="for_email" type="text" class="validate">
+                    <label for="for_email">Email</label>
+                </div>
+        
+        <div style="margin-top: 5%" class="input-field col s12 m1">
+                    <i class="material-icons prefix">enhanced_encryption</i>
+                    <input id="for_senha" type="password" class="validate">
+                    <label for="for_senha">Senha</label>
+                </div>
+        <div class="input-field col s1 m1">
+                    <p>
+                    <label>
+                        <input id="checkCadastro" type="checkbox" onclick="MostrarSenha()"/>
+                        <span></span>
+                    </label>
+                    </p>
+                </div>
+      <!--  usar o motor de passo fazendo uma roda, e ao girar, vai vibrar, fazendo a mesinha vibrar-->
     </div>
-    <div class="modal-footer">
-      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    <div id="modalFooter" class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">CONTINUAR</a>
     </div>
   </div>
+          
       </ul>
     </div>    
         </nav>
